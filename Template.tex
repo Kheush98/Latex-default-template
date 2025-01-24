@@ -1,0 +1,74 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{float}
+
+% Configuration de la géométrie de la page
+\geometry{
+    a4paper,
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=2.5cm
+}
+
+% Configuration des couleurs
+\definecolor{ucadblue}{RGB}{0,51,102}
+
+% Configuration des en-têtes et pieds de page
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{1pt}
+\fancyhead[L]{ESP-UCAD}
+\fancyhead[R]{Deep Learning / Traitement d'images}
+\fancyfoot[C]{\thepage}
+
+% Configuration des liens hypertexte
+\hypersetup{
+    colorlinks=true,
+    linkcolor=ucadblue,
+    urlcolor=ucadblue,
+    citecolor=ucadblue
+}
+
+\begin{document}
+
+% Page de titre
+\begin{titlepage}
+\begin{center}
+    % Logo de l'université - à placer dans le même dossier que votre fichier .tex
+    \includegraphics[width=0.3\textwidth]{logo-ucad.png}\\[1cm]
+    
+    {\LARGE\textbf{Université Cheikh Anta Diop}}\\[0.5cm]
+    {\Large École Supérieure Polytechnique}\\[0.3cm]
+    {\large Département Génie Informatique}\\[2cm]
+    
+    {\Huge\textbf{Accès sécurisé par\\reconnaissance faciale}}\\[2cm]
+    
+    {\Large\textit{Deep Learning / Traitement d'images}}\\[2cm]
+    
+    \textbf{Année Universitaire 2024/2025}\\
+    \textbf{Diplôme d'ingénieur de Conception (DIC 3\textsuperscript{ère} année)}\\[2cm]
+    
+    \textbf{Membres du Groupe:}\\[0.5cm]
+    Daniel André Sogo DIEME\\
+    Cheikh GAYE\\
+    Pape Diere BODIAN\\[2cm]
+\end{center}
+\end{titlepage}
+
+% Table des matières
+\tableofcontents
+\newpage
+
+Le cors
+
+\end{document}
